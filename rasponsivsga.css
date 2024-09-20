@@ -1,0 +1,1125 @@
+body, html {
+  overflow-x: hidden;
+  width: 100%;
+  min-width: 320px;
+}
+body {
+  margin: 0;
+}    
+.karta-bg {
+ background: url(images/bg-1.jpg) center center no-repeat;
+ -webkit-background-size: cover;
+      -o-background-size: cover;
+         background-size: cover;
+  width: 100%;
+  min-width: 320px;
+  height: 977px;
+  display: block;
+}
+.karta-bg-content {
+  max-width: 1920px;
+ /* height: 977px;*/
+  margin: 0 auto;
+}
+.karta-bg-content-map {
+  display: inline-block;
+  float: left;
+  width: 848px;
+}
+.karta-bg-content-map-head {
+  font-size: 30px;
+  font-family: "Ubuntu";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  line-height: 1.2;
+  margin-left: 100px;
+  padding-top: 38px;
+  font-family: Arial, sans-sefif;
+}
+/*.karta-bg-content-map-head::before {
+  display: block;
+  content: '';
+  width: 67px;
+  height: 67px;
+  background: url('../images/rub.png');
+  position: absolute;
+  margin-left: -80px;
+}*/
+.karta-bg-content-map-subhead {
+  font-size: 18px;
+  font-family: "Ubuntu";
+  color: rgb(0, 0, 0);
+  line-height: 1.667;
+  margin-left: 100px;
+  font-family: Arial, sans-sefif;
+}
+.karta-bg-content-cities {  
+  float: none;
+  padding-top: 55px;  
+  width: 100%;
+  clear: both;
+}
+.karta-bg-content-cities-ul {
+  padding-top: 20px;
+  /*display: flex;
+    flex-wrap: wrap;*/
+    -webkit-column-count: 6; /* Chrome, Safari, Opera */
+    -moz-column-count: 6; /* Firefox */
+    column-count: 6;
+}
+.karta-bg-content-cities-ul, .karta-bg-content-cities-ul a {
+  list-style: none;
+    font-size: 17px;
+    text-transform: uppercase;
+    font-family: "Ubuntu";
+    color: #fff;
+    line-height: 119%;
+    text-decoration: none !important;
+    font-family: Arial, sans-sefif;
+}
+.active-class::before,
+.karta-bg-content-cities-ul li:hover::before {
+    width: 10px;
+    height: 16px;
+    content: '';
+    display: block;
+    background: url(images/before.png);
+    position: absolute;
+    margin-left: -2px;
+    margin-top: 2px;
+    top: 0;
+    left: 0;
+}
+.karta-bg-content-cities-ul li {
+  position: relative;
+  padding-left: 12px;
+}
+.active-class {
+  color: #fff !important;
+  font-weight: bold;
+}
+.karta-bg-content-cities-ul li a:hover {
+text-decoration: none;
+color: #2389ca;
+}
+#squidhead:hover {
+  background: #fff;
+}
+.map-name {
+  position: absolute;
+  display: none;
+  font-size: 13px;
+  font-family: "Ubuntu";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.167;
+text-shadow: #459ad0 1px 1px 0, #459ad0 -1px -1px 0, 
+                 #459ad0 -1px 1px 0, #459ad0 1px -1px 0;
+                 text-transform: uppercase;
+  z-index: 8888;
+  cursor: pointer;
+  font-family: Arial, sans-sefif;
+}
+.moscow {
+  margin-left: 370px;
+  margin-top: 300px;
+  display: block !important;
+  cursor: default !important;
+}
+.hidden {
+  display: none;
+}
+.name1 {
+  margin-top: 304px;
+  margin-left: 149px;
+}
+
+.name2 {
+  margin-top: 219px;
+  margin-left: 150px;
+}
+.name3 {
+  margin-top: 267px;
+  margin-left: 108px;  
+}
+.name4 {
+  margin-top: 321px;
+  margin-left: 99px;  
+}
+.name5 {
+  margin-top: 351px;
+  margin-left: 39px;  
+}
+.name6 {
+  margin-top: 353px;
+  margin-left: 121px;
+}
+.name7 {
+  margin-top: 177px;
+  margin-left: 115px;
+}
+.name8 {
+  margin-top: 335px;
+  margin-left: 162px;
+}
+.name9 {
+  margin-top: 381px;
+  margin-left: 160px;
+}
+.name10 {
+  margin-top: 295px;
+  margin-left: 176px;
+}
+.name11 {
+  margin-top: 379px;
+  margin-left: 172px;
+}
+.name12 {
+  margin-top: 377px;
+  margin-left: 190px;
+ 
+}
+.name13 {
+  margin-top: 386px;
+  margin-left: 190px;
+}
+.name14 {
+  margin-top: 394px;
+  margin-left: 211px;
+}
+.name15 {
+  margin-top: 418px;
+  margin-left: 202px;
+}
+.name16 {
+  margin-top: 415px;
+  margin-left: 223px;
+}
+.name17 {
+  margin-top: 399px;
+  margin-left: 370px;
+}
+.name18 {
+  margin-top: 195px;
+  margin-left: 272px;
+}
+.name19 {
+  margin-top: 293px;
+  margin-left: 249px;
+}
+.name20 {
+  margin-top: 305px;
+  margin-left: 246px;
+}
+.name21 {
+  margin-top: 283px;
+  margin-left: 271px;
+}
+.name22 {
+  margin-top: 299px;
+  margin-left: 280px;
+}
+.name23 {
+  margin-top: 256px;
+  margin-left: 298px;
+}
+.name24 {
+  margin-top: 277px;
+  margin-left: 299px;
+}
+.name25 {
+  margin-top: 186px;
+  margin-left: 384px;
+}
+.name26 {
+  margin-top: 213px;
+  margin-left: 349px;
+}
+.name27 {
+  margin-top: 239px;
+  margin-left: 335px;
+}
+.name28 {
+  margin-top: 251px;
+  margin-left: 330px;
+}
+.name29 {
+  margin-top: 258px;
+  margin-left: 358px;
+}
+.name30 {
+  margin-top: 295px;
+  margin-left: 342px;
+}
+.name31 {
+  margin-top: 325px;
+  margin-left: 333px;
+}
+.name32 {
+  margin-top: 298px;
+  margin-left: 384px;
+}
+.name33 {
+  margin-top: 399px;
+  margin-left: 371px;
+}
+.name34 {
+  margin-top: 273px;
+  margin-left: 434px;
+}
+.name35 {
+  margin-top: 298px;
+  margin-left: 508px;
+}
+.name36 {
+  margin-top: 183px;
+  margin-left: 593px;
+}
+.name37 {
+  margin-top: 319px;
+  margin-left: 688px;
+}
+.name38 {
+  margin-top: 254px;
+  margin-left: 794px;
+}
+.name39 {
+  margin-top: 328px;
+  margin-left: 734px;
+}
+.name40 {
+  margin-top: 365px;
+  margin-left: 683px;
+}
+.name41 {
+  margin-top: 407px;
+  margin-left: 342px;
+}
+.name42 {
+  margin-top: 429px;
+  margin-left: 341px;
+}
+/*.overlay {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.5);
+  z-index: 999999;
+  display: none;
+}*/
+.form-map {
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 32px 0px rgba(2, 2, 2, 0.27);
+  position: fixed;
+  margin: auto;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;  
+  width: 755px;
+  height: 672px;
+  z-index: 999999;
+  /*display: none;*/
+}
+.form-map-head {
+  border-radius: 1px;
+  background-color: rgb(68, 193, 239);
+  margin: 12px auto;
+  width: 731px;
+  height: 90px;
+}
+.form-map-head-text {
+  font-size: 30px;
+  font-family: "Ubuntu";
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 90px;
+  text-align: center;
+  font-family: Arial, sans-sefif;
+}
+.close-map-form {
+  outline: none;
+  background: url('images/close.png');
+  border: none;
+  width: 16px;
+  height: 16px;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+}
+.map-form-block {
+  border-width: 1px;
+  border-color: rgb(68, 193, 239);
+  border-style: solid;
+  width: 173px;
+  height: 308px;
+  display: inline-block;
+  margin-left: 9px;
+}
+.map-form-block2 {
+  border-width: 1px;
+  border-color: rgb(68, 193, 239);
+  border-style: solid;
+  width: 173px;
+  height: 308px;
+  display: inline-block;
+}
+.form-map-content {
+white-space: nowrap;
+  width: 731px;
+  margin-top: 10px;
+  margin-left: 2px;
+  padding-bottom: 20px;
+}
+.form-map-footer {
+  border-radius: 2px;
+  background-color: rgb(235, 235, 235);
+  box-shadow: 0px 0px 32px 0px rgba(2, 2, 2, 0.27);
+  width: 755px;
+  height: 225px;
+}
+.form-map-footer-head {
+  font-size: 18px;
+  font-family: "Ubuntu";
+  color: rgb(4, 46, 132);
+  font-weight: bold;
+  line-height: 2;
+  padding-top: 10px;
+  text-align: center;
+  font-family: Arial, sans-sefif;
+}
+.form-map-footer-subhead {
+  font-size: 14px;
+  font-family: "Ubuntu";
+  color: rgb(0, 0, 0);
+  line-height: 3.429;
+  text-align: center;
+  font-family: Arial, sans-sefif;
+}
+.form-map-phone {
+  border-radius: 3px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 0px 2px 0px rgba(2, 2, 2, 0.75);
+  width: 470px;
+  height: 52px;
+  outline: none;
+  font-size: 18px;
+  font-family: "Ubuntu";
+  color: rgb(0, 0, 0);
+  line-height: 1.667;
+  text-align: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-family: Arial, sans-sefif;
+}
+.form-map-footer-container {
+  width: 731px;
+  margin: 0 auto;
+}
+.form-map-send {
+margin-left: 16px;
+  background: url("images/button-map.png");
+  width: 235px;
+  height: 52px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  font-family: "Ubuntu";
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: center;
+  font-family: Arial, sans-sefif;
+}
+.form-map-block-text {
+  font-size: 14px;
+  font-family: "Ubuntu";
+  color: rgb(5, 5, 5);
+  line-height: 1.286;
+  text-align: left;
+  margin-left: 10px;
+  margin-top: 40px;
+  font-family: Arial, sans-sefif;
+}
+.form-map-block-text span, .form-map-block-text2 span {
+  font-weight: bold;
+}
+.light-ar {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: url('images/light.png');
+  margin-left: 10px;
+}
+.gray-ar {
+    display: inline-block;
+  width: 18px;
+  height: 18px;
+  background: url('images/gray.png');
+}
+
+.right-city-block {
+  width: 550px;
+    position: relative;
+    height: 247px;
+    position: absolute;
+    right: 0px;
+    top: 194px;
+    z-index: 1;
+}
+
+.rayon {
+  color: #fff;
+  font-size: 38px; 
+  font-size: 24px; 
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: Arial, sans-sefif;
+}
+.timme {
+  color: #fff;
+  font-size: 30px;
+  font-family: Arial, sans-sefif; 
+}
+
+.bg-image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: -1;
+}
+.inner-left {  
+    display: flex;
+   -webkit-flex-wrap: wrap;
+       -ms-flex-wrap: wrap;
+           flex-wrap: wrap;
+    width: 45%;
+    text-align: center;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+            flex-direction: column;
+        float: left;
+        padding-top: 7px;
+}
+
+.inner-rcbl {
+  height: 100%;
+}
+.inner-right {
+  display: flex;
+   -webkit-flex-wrap: wrap;
+       -ms-flex-wrap: wrap;
+           flex-wrap: wrap;
+    width: 55%;
+    padding-right: 19px;
+    text-align: center;
+    height: 100%;
+   justify-content: center;
+    align-items: flex-start;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    float: right;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+
+.skyperr {
+    display: block;
+    vertical-align: middle;
+    font-size: 14px;
+    text-align: left;
+    color: inherit;
+    text-decoration: none;
+    background-image: url(images/icons/skype2.png);
+    background-image: url(images/skype2.png);
+    background-repeat: no-repeat;
+    padding: 0px 0px 0px 21px;
+    background-position: center left;
+    color: #FFF;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 0px;
+    font-family: Arial, sans-sefif;
+    }
+/*.place-ic {
+    display: block;
+    vertical-align: middle;
+        font-size: 14px;
+    text-align: left;
+    color: inherit;
+    text-decoration: none;   
+    background-image: url(images/icons/place.png); 
+    background-image: url(../images/place.png);
+    background-repeat: no-repeat;
+    padding: 6px 0px 7px 20px;
+    background-position: 0 0px;
+    color: #FFF;
+    font-weight: bold;
+    margin: 0;
+        margin-bottom: -6px;
+        font-family: Arial, sans-sefif;
+    }*/
+.phonne2 {
+    display: block;
+    vertical-align: middle;
+    font-size: 18px;
+    text-align: left;
+    color: inherit;
+    text-decoration: none;   
+    background-image: url(images/icons/place.png); 
+    background-image: url(images/phone1.png);
+    background-repeat: no-repeat;
+    padding: 0px 0px 0px 20px;
+    background-position: center left;
+    color: #FFF;
+    font-weight: bold;
+    margin-bottom: 4px;
+    font-family: Arial, sans-sefif;
+}
+.phonne {
+    display: block;
+    vertical-align: middle;
+    font-size: 18px;
+    text-align: left;
+    color: inherit;
+    text-decoration: none;   
+    background-image: url(images/icons/phone-mob.png); 
+    background-image: url(images/phone-mob.png);
+    background-repeat: no-repeat;
+    padding: 0px 0px 0px 20px;
+    background-position: center left;
+    color: #FFF;
+    font-weight: bold;
+        margin-bottom: 2px;
+        font-family: Arial, sans-sefif;
+    }
+.adresse {
+  color: #FFF;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 1px;
+  margin-top: 2px;
+  /*background-image: url(images/icons/earth.png); 
+  background-image: url(../images/earth.png);*/  
+  background-image: url(images/icons/place.png); 
+  background-image: url(images/place.png);
+  background-repeat: no-repeat;
+  padding: 6px 0px 3px 20px;
+  background-position: 0 0px;  
+  background-position: center left;
+  margin-left: -1px;
+  text-align: left;
+  font-size: 14px;
+  font-family: Arial, sans-sefif;        
+}
+.quest {
+    text-transform: uppercase;
+    font-weight: bold;
+    border: 2px solid #fff;
+    border-radius: 26px;
+    padding: 3px 15px;
+    color: #fff;
+    text-decoration: none;
+    margin-left: 27px;
+    margin-top: 10px;
+}
+
+.karta-bg-content {
+    max-width: 1920px;
+    /*width: 1260px;*/
+        max-width: 1500px;
+    margin: 0px auto;
+    position: relative;
+}
+.country-list-wrap{
+  background: #166AA0;
+}
+.country-list { 
+    max-width: 1620px; 
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    justify-content: space-around;
+    margin: 0 auto;    
+    padding-left: 0;
+    /*padding-right: 18px;*/
+    padding-right: 3px;
+}
+.country-list li {
+  padding: 10px 0;
+}
+.country-list li a {
+  position: relative;
+  padding-left: 35px;
+  cursor: pointer;
+  color: #FFF;
+  text-transform: uppercase;
+  font-size: 16px;
+  font-family: Arial, sans-sefif;
+}
+.country-list li a:before {
+  content: "";
+  width: 27px;
+  height: 27px;
+  display: block;
+  position: absolute;
+  left: 0;
+  top: -5px;
+  background: url(images/flag.png) 0 0 no-repeat;
+  
+}
+.country-list li:nth-child(2) a:before {
+  background-position: -27px 0;
+}
+.country-list li:nth-child(3) a:before {
+  background-position: -54px 0;
+}
+.country-list li:nth-child(4) a:before {
+  background-position: -81px 0;
+}
+.country-list li:nth-child(5) a:before {
+  background-position: -108px 0;
+}
+.country-list li:nth-child(6) a:before {
+  background-position: -135px 0;
+}
+.country-list li:nth-child(7) a:before {
+  background-position: -162px 0;
+}
+.country-list li:nth-child(8) a:before {
+  background-position: -189px 0;
+}
+.country-list li:nth-child(9) a:before {
+  background-position: -216px 0;
+}
+.country-list li:nth-child(10) a:before {
+  background-position: -243px 0;
+}
+
+.country-list li a.sga-active:after {
+    content: "";    
+    display: block;
+    position: absolute;
+    left: 44%;
+    top: 23px;
+    border: 16px solid transparent;
+    border-top: 17px solid #166aa0;
+}
+.country-list li a.sga-active {
+    color: #ffc364;
+}
+
+/*to hidden all cities*/
+.chehya1 {
+  display: none;
+}
+.azer1{
+  display: none;
+}
+.armen1{
+  display: none;
+}
+.belarus1{
+  display: none;
+}
+.kazah1{
+  display: none;
+}
+.kirgiz1{
+  display: none;
+}
+.tadj1{
+  display: none;
+}
+.uzbek1{
+  display: none;
+}
+.ukraine1{
+  display: none;
+}
+.karta-bg-content-cities-ul li.bigfont a {   
+    font-size: 20px
+}      
+
+
+/*timer-block*/
+
+.hours {
+  float: left;
+}
+.minutes {
+  float: left;
+}
+.beetw-timer {
+  float: left;
+}
+
+/*modal window*/
+
+.fancybox-skin {    
+    background: transparent;    
+}
+
+.modal.callmodal p label {
+    display: none;  
+}
+/*begin media*/
+
+@media all and (max-width: 1550px) {
+    .right-city-block {      
+      margin-right: 20px;
+  }
+
+ .karta-bg-content-map {
+      margin-left: 20px;
+  }
+
+}
+
+
+@media all and (max-width: 1450px) {
+
+  .country-list li a {
+      font-size: 14px;
+    }
+
+    .country-list li {
+      padding: 10px 0 12px;
+  }
+
+  .map {    
+    position: absolute !important;   
+    margin-left: calc((100% - 980px) / 2) !important;
+    margin-left: calc((100% - 880px) / 2) !important;
+
+        top: 37px;
+  }
+  
+  .maps-names {
+    position: absolute !important;   
+    margin-left: calc((100% - 880px) / 2) !important;
+        top: 37px;
+  }
+  .map img {
+      position: absolute !important;
+      left: calc((100% - 813px) / 2) !important;
+  }
+  .right-city-block {
+      position: relative;    
+      /*top: 194px;*/
+      z-index: 1;
+      margin: 0 auto;
+      margin-top: 170px;
+  }
+
+  .karta-bg-content-cities-ul {
+    position: absolute;
+    top: 770px;
+    width: 95%;
+     -webkit-column-count: 5;
+    -moz-column-count: 5;
+    column-count: 5;
+
+  }
+
+  .karta-bg {   
+    background-attachment: fixed;      
+    height: 1042px;
+    }
+
+    
+/*1450*/
+}
+@media all and (max-width: 1250px) {
+
+  .country-list li a {    
+      padding-left: 31px;
+  }
+}
+@media all and (max-width: 1200px) {
+
+  .country-list {    
+    flex-wrap: wrap;
+        padding-left: 7%;
+    }
+
+    .country-list li {
+      padding: 10px 0 12px;
+      width: 17.5%;
+  }  
+
+  .country-list li a.sga-active:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: auto;
+    right: -34px;
+    top: -3px;
+    /* border: 11px solid transparent; */
+    border-top: 0;
+    border: 16px solid transparent;
+    border-left: 20px solid #fff;
+    }
+
+  .country-list li a.sga-active {
+      color: #ffc364;
+      /* line-height: 35px; */
+      padding: 7px 8px 11px 31px;
+    /*border-left: 2px solid #fff;*/
+  }
+  .country-list li a {
+    padding: 7px 8px 11px 31px;
+  }
+  .country-list li a:before {
+       top: 2px;
+    }
+
+  .karta-bg {
+      background-attachment: fixed;
+      height: 1097px;
+  }
+
+/*1200*/
+}
+@media all and (max-width: 950px) {
+  .country-list {    
+    padding-left: 5%;
+    }
+}
+@media all and (max-width: 900px) {
+  .karta-bg-content-cities-ul {
+   -webkit-column-count: 4;
+    -moz-column-count: 4;
+    column-count: 4;
+    padding-left: 23px;
+    }
+}
+
+@media all and (max-width: 850px) {
+  .map {
+    display: none !important;
+  }
+  .karta-bg-content-map {
+    display: none !important;
+  }
+  .right-city-block {
+    position: relative;
+    top: 10px;
+    z-index: 1;
+    margin: 0 auto;
+    margin-top: 0;
+  }
+
+  .karta-bg-content-cities-ul {
+    position: absolute;
+    top: 363px;    
+    }
+
+    .karta-bg-content-cities-ul {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+      width: 100%; 
+      
+      } 
+
+    .karta-bg {
+      background-attachment: fixed;
+      height: auto;
+      min-height: 794px;
+  }
+
+
+/*850*/
+
+}
+
+@media all and (max-width: 750px) {
+
+  .karta-bg-content-cities-ul {
+    -webkit-column-count: 3;
+    -moz-column-count: 3;
+    column-count: 3;
+      width: 100%; 
+      padding-left: 16px;
+      }
+
+    .country-list li {
+        padding: 10px 0 12px;
+        width: 33.5%;
+    }
+
+
+}
+@media all and (max-width: 677px) {
+  .karta-bg-content-cities-ul {
+    -webkit-column-count: 2;
+    -moz-column-count: 2;
+    column-count: 2;
+        }
+
+    .right-city-block img {
+      max-width: 100%;
+    }
+
+    .country-list li {
+    padding: 5px 0 8px;
+    }
+
+    .country-list li a.sga-active:after {   
+    top: 2px;   
+    border: 13px solid transparent;
+    border-left: 15px solid #fff;
+    }
+
+}
+@media all and (max-width: 550px) {
+    .right-city-block {
+      width: 400px;
+      height: 188px;
+      }
+
+      .place-ic {
+        display: none;
+      }
+
+      .inner-right {    
+    padding-left: 9px;
+    }
+
+    .quest {    
+    margin-left: 0;
+    margin-top: 10px;
+    font-size: 15px;
+    }
+
+    .karta-bg-content-cities-ul {
+       top: 266px;
+  }
+  .rayon {    
+    font-size: 19px;
+    }
+
+    .timme {
+       font-size: 26px;
+    }
+/*550*/
+}
+@media all and (max-width: 460px) {
+  .country-list {
+      padding-left: 3%;
+  }
+
+  .karta-bg-content-cities-ul li {
+    position: relative;
+    /*padding-left: 0;*/
+  }
+
+  .karta-bg-content-cities-ul a {  
+    font-size: 15px;   
+    line-height: 22px;
+    }
+}
+
+@media all and (max-width: 410px) {
+  .right-city-block {
+    width: 320px;
+    height: 142px;
+    }
+
+    .rayon {    
+      font-size: 16px;
+    }
+
+    .timme {    
+    font-size: 24px;
+    }
+
+    .inner-left {
+        width: 45%;
+    }
+
+    .inner-right {
+       width: 55%;
+    }
+    .adresse {    
+    background-image: none;   
+    padding: 0px 0px 0px 0;
+    background-position: center left;
+    margin-left: -1px;
+    text-align: left;
+    font-size: 13px;
+    }
+    .phonne {    
+      font-size: 15px;    
+      background-image: none;      
+      padding: 0px 0px 0px 0px;
+    }
+    .phonne2 {    
+      font-size: 15px;    
+      background-image: none;      
+      padding: 0px 0px 0px 0px;
+    }
+
+    .skyperr {   
+    font-size: 13px;       
+    background-image: none;    
+    padding: 0;
+    }
+    .quest {   
+      font-size: 13px;
+  }
+
+  .karta-bg-content-cities-ul {
+      top: 209px;
+  }
+
+  .karta-bg-content-cities {
+       padding-top: 39px;
+    }
+
+    .country-list {
+      padding-left: 0;
+  }
+
+  .quest {
+        padding: 3px 9px;
+    }
+
+    .karta-bg-content-cities-ul {
+        width: 96%;
+    }
+
+    .quest {
+        margin-top: 3px;
+    }
+  /*410*/
+
+}
+@media all and (max-width: 380px) {
+  .karta-bg-content-cities-ul {
+      width: 91%;
+  }
+
+}
+@media all and (max-width: 360px) {
+  .karta-bg-content-cities-ul a {
+    font-size: 14px;
+    }
+
+    .karta-bg-content-cities-ul {
+        padding-left: 10px;
+    }
+
+
+}
